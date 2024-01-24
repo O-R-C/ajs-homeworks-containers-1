@@ -5,7 +5,7 @@ export default class Team {
     return `add ${character}`;
   }
 
-  addAll(...characters) {
+  addAll(characters) {
     return `add ${characters}`;
   }
 

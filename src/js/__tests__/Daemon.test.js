@@ -1,16 +1,16 @@
-import Daemon from "../Classes/Daemon";
+import Daemon from '../Classes/Characters/Daemon';
 
-describe("test class Daemon", () => {
-  test("correct create", () => {
-    const result = new Daemon("Daemon");
+describe('test class Daemon', () => {
+  test('correct create', () => {
+    const result = new Daemon('Daemon');
 
     expect(result).toEqual({
       level: 1,
       attack: 10,
       defence: 40,
       health: 100,
-      type: "Daemon",
-      _name: "Daemon",
+      type: 'Daemon',
+      _name: 'Daemon',
     });
   });
 });

@@ -1,16 +1,16 @@
-import Swordsman from "../Classes/Swordsman";
+import Swordsman from '../Classes/Characters/Swordsman';
 
-describe("test class Swordsman", () => {
-  test("correct create", () => {
-    const result = new Swordsman("Swordsman");
+describe('test class Swordsman', () => {
+  test('correct create', () => {
+    const result = new Swordsman('Swordsman');
 
     expect(result).toEqual({
       level: 1,
       attack: 40,
       defence: 10,
       health: 100,
-      type: "Swordsman",
-      _name: "Swordsman",
+      type: 'Swordsman',
+      _name: 'Swordsman',
     });
   });
 });
