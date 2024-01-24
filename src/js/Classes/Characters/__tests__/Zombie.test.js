@@ -1,4 +1,4 @@
-import Zombie from '../Classes/Characters/Zombie';
+import Zombie from '../Zombie';
 
 describe('test class Zombie', () => {
   test('correct create', () => {

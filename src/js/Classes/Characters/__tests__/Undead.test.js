@@ -1,4 +1,4 @@
-import Undead from '../Classes/Characters/Undead';
+import Undead from '../Undead';
 
 describe('test class Undead', () => {
   test('correct create', () => {

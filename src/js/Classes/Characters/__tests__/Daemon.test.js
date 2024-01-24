@@ -1,4 +1,4 @@
-import Daemon from '../Classes/Characters/Daemon';
+import Daemon from '../Daemon';
 
 describe('test class Daemon', () => {
   test('correct create', () => {

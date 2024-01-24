@@ -1,4 +1,4 @@
-import Swordsman from '../Classes/Characters/Swordsman';
+import Swordsman from '../Swordsman';
 
 describe('test class Swordsman', () => {
   test('correct create', () => {

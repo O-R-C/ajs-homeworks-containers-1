@@ -1,4 +1,4 @@
-import Magician from '../Classes/Characters/Magician';
+import Magician from '../Magician';
 
 describe('test class Magician', () => {
   test('correct create', () => {

@@ -1,4 +1,4 @@
-import Character from '../Classes/Characters/Character';
+import Character from '../Character';
 
 describe('test class Character', () => {
   test('correct create', () => {

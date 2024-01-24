@@ -5,6 +5,11 @@ import Swordsman from './Classes/Characters/Swordsman';
 import Undead from './Classes/Characters/Undead';
 import Zombie from './Classes/Characters/Zombie';
 
-const characters = [Bowman, Daemon, Magician, Swordsman, Undead, Zombie];
+const charactersToAdd = [Bowman, Daemon, Magician, Swordsman, Undead, Zombie];
+
+const characters = charactersToAdd.reduce(
+  (acc, character) => [...acc, new character(character.name)],
+  []
+);
 
 export default characters;
