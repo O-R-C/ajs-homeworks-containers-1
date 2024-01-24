@@ -1,9 +1,11 @@
 import Team from './Classes/Team';
-import Bowman from './Classes/Characters/Bowman';
+import characters from './data';
 
-const bowman = new Bowman('Adam');
-console.log('🚀 ~ bowman:', bowman);
+const charactersToAdd = characters.reduce(
+  (acc, character) => [...acc, new character(character.name)],
+  []
+);
 
 const team = new Team();
-console.log('🚀 ~ team:', team);
+team.add(charactersToAdd[0]);
 
